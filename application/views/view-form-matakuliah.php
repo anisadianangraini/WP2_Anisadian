@@ -6,7 +6,7 @@
 
 <body>
     <center>
-        <form   action="<?=     base_url('matakuliah/cetak');   ?>"method="post">
+        <form   action="<?= base_url('matakuliah/cetak');   ?>"method="post">
             <table>
                 <tr>
                     <th colspan="3">
@@ -20,7 +20,7 @@
                 </tr>
                 <tr>
                     <th>Kode MTK</th>
-                    <th>:<th>
+                    <th>:</th>
                     <td>
                         <input type="text" name="kode" id="kode">
                     </td>
